@@ -36,7 +36,6 @@ const unsigned char smiley_bitmap[] = {
     0x00, 0x00, 0x00, 0x00
 };
 
-
 void sh1107_draw_bitmap(uint8_t x, uint8_t y, const uint8_t *bitmap, uint8_t w, uint8_t h) {    
     for (uint8_t j = 0; j < h; j++) {
         for (uint8_t i = 0; i < w / 8; i++) {  // 8 pixels per byte
