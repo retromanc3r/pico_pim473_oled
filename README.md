@@ -5,7 +5,7 @@ This project implements a driver for the SH1107-based 128x128 OLED display (Pimo
 
 - Text rendering
 - Basic shapes (lines, rectangles, circles)
-- Bitmap image display
+- Bitmap image display (needs improvement)
 
 ## Features
 - 📟 **128x128 monochrome OLED display support**
@@ -54,7 +54,7 @@ RST is not required.
 ```sh
 mkdir build && cd build
 cmake ..
-make -j4
+make
 picotool load -f firmware.uf2
 ```
 
