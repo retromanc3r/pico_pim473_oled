@@ -11,7 +11,7 @@ pico_sdk_init()
 
 # rest of your project
 add_executable(pico_pim473_oled
-    src/examples/pico_pim_oled.c
+    src/pico_pim_oled.c
     src/driver/sh1107_driver.c
     src/fonts/sh1107_font.c
     src/gfx/sh1107_bitmap.c

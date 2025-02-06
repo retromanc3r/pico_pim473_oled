@@ -3,6 +3,7 @@
 
 #include "../fonts/sh1107_font.h"
 #include "../gfx/sh1107_draw.h"
+#include "../gfx/sh1107_bitmap.h"
 #include "hardware/spi.h"
 #include "pico/stdlib.h"
 #include <string.h>

@@ -1,6 +1,4 @@
-#include "../driver/sh1107_driver.h"
-#include "../gfx/sh1107_bitmap.h"
-#include "../gfx/sh1107_draw.h"
+#include "driver/sh1107_driver.h"
 
 // SPI port and pins are set in sh1107_driver.h
 
