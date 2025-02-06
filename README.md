@@ -58,6 +58,10 @@ make -j4
 picotool load -f firmware.uf2
 ```
 
+### PIM473
+![OLED Display Example](./img/oled.jpg)
+
+
 ## Author
 @retromanc3r
 
