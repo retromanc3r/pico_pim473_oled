@@ -11,7 +11,7 @@ This project implements a driver for the SH1107-based 128x128 OLED display (Pimo
 - 📟 **128x128 monochrome OLED display support**
 - 🔠 **Custom font rendering**
 - 📏 **Basic graphics primitives (lines, rectangles, circles)**
-- 🖼️ **Bitmap rendering** (Work-in-progress)
+- 🖼️ **Bitmap rendering**
 - 🔌 **Optimized SPI communication**
 
 ---
@@ -20,8 +20,8 @@ This project implements a driver for the SH1107-based 128x128 OLED display (Pimo
 
 | Quantity | Component                  | Description                             | Supplier |
 |----------|----------------------------|-----------------------------------------|----------|
-| 1        | Raspberry Pi Pico           | RP2040-based microcontroller board     | [Raspberry Pi](https://www.raspberrypi.org/) |
-| 1        | Pimoroni PIM473 OLED Display | 1.3" SH1107 128x128 OLED (SPI)         | [Pimoroni](https://shop.pimoroni.com/products/1-3-oled-breakout-128x128-mono-sh1107) |
+| 1        | Raspberry Pi Pico           | RP2040-based microcontroller board     | [Raspberry Pi](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) |
+| 1        | Pimoroni PIM473 OLED Display | 1.3" SH1107 128x128 OLED (SPI)         | [Pimoroni](https://shop.pimoroni.com/products/1-12-oled-breakout) |
 | 6        | Jumper Wires (Male-Male)    | For connecting Pico to OLED            | Any      |
 | 1        | USB Cable (Micro USB)       | For powering/programming the Pico      | Any      |
 
@@ -37,12 +37,11 @@ This project implements a driver for the SH1107-based 128x128 OLED display (Pimo
 | **GP17** | CS       | CS                |
 | **GP18** | SCK      | SCK               |
 | **GP19** | MOSI     | MOSI              |
-| **GP15** | RES      | RESET             |
 | **GND**  | GND      | GND               |
 | **3V3**  | 3.3V     | VCC               |
 
 *Note:* The display uses **SPI0** on the Raspberry Pi Pico.
-
+RST is not required.
 ---
 
 ## Installation & Usage
